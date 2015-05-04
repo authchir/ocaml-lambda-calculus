@@ -1,1 +1,1 @@
-(\x. \y. x) (\z. z) (\w. w)
+(\x : Bool -> Bool. \y : Bool -> Bool. x) (\z : Bool. z) (\w : Bool. w)

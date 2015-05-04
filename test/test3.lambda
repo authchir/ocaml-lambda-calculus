@@ -1,1 +1,1 @@
-(\x. x) (\x. x) (\x. x)
+(\x : (Bool -> Bool) -> Bool -> Bool. x) (\x : Bool -> Bool. x) (\x : Bool. x) True

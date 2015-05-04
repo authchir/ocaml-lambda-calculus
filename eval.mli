@@ -1,1 +1,3 @@
-val by_value : Syntax.t -> Syntax.t
+open Lambda
+
+val by_value : Term.t -> Term.t
